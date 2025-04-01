@@ -4,4 +4,4 @@
   <br>
 </h1>
 
-<h2 align="right" font = copperlate>Tech Stack</h2>
+<span style="font-family:Copperlate; font-size:4em;">Love</span>
