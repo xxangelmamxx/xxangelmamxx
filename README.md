@@ -1,9 +1,10 @@
 
 <h1 align="center">
   <br>
-	  <a><img src="https://github.com/user-attachments/assets/74154c3c-9f6b-47fd-8a5b-0e43a7b790c1" alt="Abha Mam" width = "400"></a>
+	  <a><img src="brush stroke logo](https://github.com/user-attachments/assets/5ef50ec4-5fa2-4156-8df2-b1a68225ba07" alt="Abha Mam" width = "400"></a>
 	<!--
-	[Abha Mam github logo](https://github.com/user-attachments/assets/74154c3c-9f6b-47fd-8a5b-0e43a7b790c1)
+	![brush stroke logo](https://github.com/user-attachments/assets/5ef50ec4-5fa2-4156-8df2-b1a68225ba07)
+
 	--!>
   <br>
 </h1>
