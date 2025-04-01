@@ -4,4 +4,4 @@
   <br>
 </h1>
 
-<h2 align="right" font = "copperlate">Tech Stack</h2>
+<h2 align="right" font = copperlate>Tech Stack</h2>
