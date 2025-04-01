@@ -4,6 +4,4 @@
   <br>
 </h1>
 
-##
-
 <h2 align="right">Tech Stack</h2>
