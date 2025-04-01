@@ -4,4 +4,4 @@
   <br>
 </h1>
 
-<span style="font-family: 'Courier New', Courier, monospace;">Love</span>
+<span style="font-family: 'Copperplate', serif;">Love</span>
