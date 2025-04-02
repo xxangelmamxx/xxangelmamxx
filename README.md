@@ -4,7 +4,10 @@
   <br>
 </h1>
 
-<h1 align="center"; style="font-weight: bolder;">TECH STACK</h1>
+<h1>
+	<a><img src="https://github.com/user-attachments/assets/1e84232e-aa06-4f80-8f5e-5e0ceef05a8d" alt="Tech Stack" width = "400"></a>
+
+</h1>
 
 <!-- Operating Sytems -->
 ### Operating Systems:
