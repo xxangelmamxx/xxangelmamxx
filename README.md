@@ -130,3 +130,18 @@
 		<img src="https://skillicons.dev/icons?i=eclipse" />
 	</a>
 </p>
+
+<br>
+
+### Collaborative Spaces:
+<p align="right">
+  	<a href="https://github.com">
+		<img src="https://skillicons.dev/icons?i=github" />
+	</a>
+	<a href="https://replit.com/collaboration">
+		<img src="https://skillicons.dev/icons?i=replit" />
+	</a>
+	<a href="https://discord.com">
+		<img src="https://skillicons.dev/icons?i=discord" />
+	</a>
+</p>
