@@ -5,7 +5,7 @@
 </h1>
 
 <h1 align="center";>Tech Stack</h1>
-<p align="center">
+<p class='operating sytems' align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,docker,c,cpp,vim" />
   </a>
