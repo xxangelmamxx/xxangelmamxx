@@ -19,6 +19,15 @@
 	<a><img src="https://github.com/user-attachments/assets/05ac0556-8b51-471f-9609-cc017267c817" alt="Tech Stack" width = "400"></a>
 </p>
 
+<p align-"center">
+	<!-- Codepath-CyberSec -->
+	<object data="https://github.com/user-attachments/files/19576640/Abha.Mam.pdf" type="application/pdf" width="700px" height="700px">
+	    <embed src="https://github.com/user-attachments/files/19576640/Abha.Mam.pdf">
+		<p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://drive.google.com/file/d/14RUpj3geWj6El6QFFofZ9rFuX7JPhjfT/view">Download PDF</a>.	</p>
+	    </embed>
+</object>
+</p>
+
 ##
 
 <!-- Tech Stack -->
