@@ -7,7 +7,7 @@
 </p>
 
 <!-- Operating Sytems -->
-### Operating Systems:
+<h3 align="right">Operating Systems:</h3>
 <p align="right">
   	<a href="https://code.visualstudio.com/docs/languages/cpp">
     		<img src="https://skillicons.dev/icons?i=c" />
