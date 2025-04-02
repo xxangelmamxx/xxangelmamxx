@@ -6,8 +6,10 @@
 >
 > I'm Abha.
 > Welcome to my github, feel free to explore my public repos
-> and reach out if you have any suggestions/ and or you might
-> want to collaborate on something.
+> and reach out if you have any suggestions/ you would
+> like to collaborate on something.
+>
+> Please feel free to adopt anything you find on here, all I ask is to be referenced if approriate in context.
 
 
 
