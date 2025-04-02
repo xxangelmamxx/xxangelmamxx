@@ -34,7 +34,7 @@
 		<img src="https://skillicons.dev/icons?i=linux" />
 	</a>
 	<a href="https://www.raspberrypi.com">
-		<img src="https://skillicons.dev/icons?i=rasberrypi" />
+		<img src="https://skillicons.dev/icons?i=raspberrypi" />
 	</a>
 </p>
 
