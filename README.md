@@ -38,8 +38,6 @@
 	</a>
 </p>
 
-<br>
-
 ### DBMS:
 <p align="right">
   <a href="https://www.mysql.com">
@@ -61,8 +59,6 @@
 		<img src="https://skillicons.dev/icons?i=jquery" />
 	</a>
 </p>
-
-<br>
 
 ### Web Dev:
 <p align="right">
@@ -110,8 +106,6 @@
 	</a>
 </p>
 
-<br>
-
 ### IDEs:
 <p align="right">
   	<a href="https://code.visualstudio.com">
@@ -130,8 +124,6 @@
 		<img src="https://skillicons.dev/icons?i=eclipse" />
 	</a>
 </p>
-
-<br>
 
 ### Collaborative Spaces:
 <p align="right">
