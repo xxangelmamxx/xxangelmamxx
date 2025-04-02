@@ -20,7 +20,7 @@
 </p>
 
 <a href="https://drive.google.com/file/d/14RUpj3geWj6El6QFFofZ9rFuX7JPhjfT/view">
-	<img src="https://github.com/user-attachments/files/19576886/Abha.Mam.pdf" width = "300" />
+	<img src="https://github.com/user-attachments/files/19576886/Abha.Mam.pdf" width = "400" />
 </a>
 
 ##
