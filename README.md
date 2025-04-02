@@ -19,10 +19,11 @@
 	<a><img src="https://github.com/user-attachments/assets/05ac0556-8b51-471f-9609-cc017267c817" alt="Certifications" width = "400"></a>
 </p>
 
-<a href="https://drive.google.com/file/d/14RUpj3geWj6El6QFFofZ9rFuX7JPhjfT/view" target="_blank">
-  	<img src="https://github.com/user-attachments/assets/62fdcd06-1a6f-4c6d-926e-0a5441185cbc" width="400" border="1" />
-</a>
-
+<p align="center">
+	<a href="https://drive.google.com/file/d/14RUpj3geWj6El6QFFofZ9rFuX7JPhjfT/view" target="_blank">
+	  	<img src="https://github.com/user-attachments/assets/62fdcd06-1a6f-4c6d-926e-0a5441185cbc" width="300" />
+	</a>
+</p>
 ##
 
 <!-- Tech Stack -->
