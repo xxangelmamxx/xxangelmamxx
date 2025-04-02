@@ -20,7 +20,7 @@
 </p>
 
 <a href="https://drive.google.com/file/d/14RUpj3geWj6El6QFFofZ9rFuX7JPhjfT/view" target="_blank">
-  	<img src="https://github.com/user-attachments/files/19576886/Abha.Mam.pdf" width="400" border="1" />
+  	<img src="https://github.com/user-attachments/assets/62fdcd06-1a6f-4c6d-926e-0a5441185cbc" width="400" border="1" />
 </a>
 
 ##
