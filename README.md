@@ -5,7 +5,7 @@
 ##
 
 <p align ="right">
-	<a><img src="https://github.com/user-attachments/assets/8a5a8921-3301-4300-a96a-01d98b17e5ca" alt="Tech Stack" width = "600"></a>
+	<a><img src="https://github.com/user-attachments/assets/8a5a8921-3301-4300-a96a-01d98b17e5ca" alt="Tech Stack" width = "500"></a>
 </p>
 
 <!-- Operating Sytems -->
