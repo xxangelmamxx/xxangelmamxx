@@ -1,5 +1,5 @@
 <h1 align="center">
-	  <a><img src="https://github.com/user-attachments/assets/5ef50ec4-5fa2-4156-8df2-b1a68225ba07" alt="Abha Mam" width = "400"></a>
+	  <a><img src="https://github.com/user-attachments/assets/5ef50ec4-5fa2-4156-8df2-b1a68225ba07" alt="Abha Mam" width = "600"></a>
 </h1>
 
 <p align ="right">
