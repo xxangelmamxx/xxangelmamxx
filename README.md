@@ -9,8 +9,16 @@
 <!-- Operating Sytems -->
 ### Operating Systems
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,docker,c,cpp,vim" />
-	  <img src="https://skillicons.dev/icons?i=git,docker,c,cpp,vim" />
+  <a href="https://code.visualstudio.com/docs/languages/cpp">
+    <img src="https://skillicons.dev/icons?i=c" />
   </a>
+	<a href="https://code.visualstudio.com/docs/languages/cpp">
+		<img src="https://skillicons.dev/icons?i=cpp" />
+	</a>
+	<a href="https://www.redhat.com/en">
+		<img src="https://skillicons.dev/icons?i=redhat" />
+	</a>
+	<a href="https://www.vim.org">
+		<img src="https://skillicons.dev/icons?i=vim" />
+	</a>
 </p>
