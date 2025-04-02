@@ -27,4 +27,32 @@
 	<a href="https://www.vim.org">
 		<img src="https://skillicons.dev/icons?i=vim" />
 	</a>
+	<a href="https://code.visualstudio.com">
+		<img src="https://skillicons.dev/icons?i=vscode" />
+	</a>
+</p>
+
+### DBMS
+<p align="right">
+  <a href="https://www.mysql.com">
+    <img src="https://skillicons.dev/icons?i=mysql" />
+  </a>
+	<a href="https://code.visualstudio.com/docs/languages/cpp">
+		<img src="https://skillicons.dev/icons?i=sqlite" />
+	</a>
+	<a href="https://sqlite.org">
+		<img src="https://skillicons.dev/icons?i=redhat" />
+	</a>
+	<a href="https://www.python.org">
+		<img src="https://skillicons.dev/icons?i=python" />
+	</a>
+	<a href="https://flask.palletsprojects.com/en/stable/">
+		<img src="https://skillicons.dev/icons?i=flask" />
+	</a>
+	<a href="https://code.visualstudio.com">
+		<img src="https://skillicons.dev/icons?i=vscode" />
+	</a>
+	<a href="https://www.jetbrains.com/pycharm/">
+		<img src="https://skillicons.dev/icons?i=pycharm" />
+	</a>
 </p>
