@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h1 align="center";>Tech Stack</h1>
+<h1 align="center"; style = "bold";>Tech Stack</h1>
 
 <!-- Operating Sytems -->
 <h3>Operating Sytems</h3>
