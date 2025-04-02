@@ -15,14 +15,17 @@
 	<a href="https://code.visualstudio.com/docs/languages/cpp">
 		<img src="https://skillicons.dev/icons?i=cpp" />
 	</a>
-	<a href="https://www.redhat.com/en">
-		<img src="https://skillicons.dev/icons?i=redhat" />
-	</a>
 	<a href="https://www.perl.org">
 		<img src="https://skillicons.dev/icons?i=perl" />
 	</a>
 	<a href="https://git-scm.com">
 		<img src="https://skillicons.dev/icons?i=git" />
+	</a>
+	<a href="https://www.redhat.com/en">
+		<img src="https://skillicons.dev/icons?i=redhat" />
+	</a>
+	<a href="https://ubuntu.com">
+		<img src="https://skillicons.dev/icons?i=ubuntu" />
 	</a>
 	<a href="https://www.redhat.com/en">
 		<img src="https://skillicons.dev/icons?i=linux" />
@@ -47,6 +50,12 @@
 	</a>
 	<a href="https://www.postgresql.org">
 		<img src="https://skillicons.dev/icons?i=postgres" />
+	</a>
+	<a href="https://www.mongodb.com">
+		<img src="https://skillicons.dev/icons?i=mongodb" />
+	</a>
+	<a href="https://www.java.com/en/">
+		<img src="https://skillicons.dev/icons?i=java" />
 	</a>
 	<a href="https://www.python.org">
 		<img src="https://skillicons.dev/icons?i=py" />
