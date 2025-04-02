@@ -9,7 +9,7 @@
 > and reach out if you have any suggestions/ you would
 > like to collaborate on something.
 >
-> Please feel free to adopt anything you find on here, all I ask is to be referenced if approriate in context.
+> Please feel free to adopt anything you find on here, all I ask is to be referenced if approriate in the given context.
 
 
 
