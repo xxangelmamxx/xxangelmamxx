@@ -7,7 +7,7 @@
 <h1 align="center"; style = "bold";>Tech Stack</h1>
 
 <!-- Operating Sytems -->
-<h3>Operating Sytems</h3>
+### **Operating Systems**
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=git,docker,c,cpp,vim" />
