@@ -60,13 +60,58 @@
 	<a href="https://www.python.org">
 		<img src="https://skillicons.dev/icons?i=py" />
 	</a>
-	<a href="https://flask.palletsprojects.com/en/stable/">
-		<img src="https://skillicons.dev/icons?i=flask" />
+	<a href="https://jquery.com">
+		<img src="https://skillicons.dev/icons?i=jquery" />
 	</a>
 	<a href="https://code.visualstudio.com">
 		<img src="https://skillicons.dev/icons?i=vscode" />
 	</a>
 	<a href="https://www.jetbrains.com/pycharm/">
 		<img src="https://skillicons.dev/icons?i=pycharm" />
+	</a>
+</p>
+
+<br>
+
+### Web Dev
+<p align="right">
+  <a href="https://nodejs.org/en">
+    <img src="https://skillicons.dev/icons?i=nodejs" />
+  </a>
+	<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+		<img src="https://skillicons.dev/icons?i=js" />
+	</a>
+	<a href="https://react.dev">
+		<img src="https://skillicons.dev/icons?i=react" />
+	</a>
+	<a href="https://nextjs.org">
+		<img src="https://skillicons.dev/icons?i=nextjs" />
+	</a>
+	<a href="https://threejs.org">
+		<img src="https://skillicons.dev/icons?i=threejs" />
+	</a>
+	<a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+		<img src="https://skillicons.dev/icons?i=html" />
+	</a>
+	<a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+		<img src="https://skillicons.dev/icons?i=css" />
+	</a>
+	<a href="https://www.npmjs.com">
+		<img src="https://skillicons.dev/icons?i=npm" />
+	</a>
+	<a href="https://vite.dev">
+		<img src="https://skillicons.dev/icons?i=vite" />
+	</a>
+	<a href="https://flask.palletsprojects.com/en/stable/">
+		<img src="https://skillicons.dev/icons?i=flask" />
+	</a>
+	<a href="https://www.python.org">
+		<img src="https://skillicons.dev/icons?i=py" />
+	</a>
+	<a href="https://www.blender.org">
+		<img src="https://skillicons.dev/icons?i=blender" />
+	</a>
+	<a href="https://code.visualstudio.com">
+		<img src="https://skillicons.dev/icons?i=vscode" />
 	</a>
 </p>
