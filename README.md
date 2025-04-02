@@ -8,7 +8,7 @@
 
 <!-- Operating Sytems -->
 ### Operating Systems
-<p align="center">
+<p align="right">
   <a href="https://code.visualstudio.com/docs/languages/cpp">
     <img src="https://skillicons.dev/icons?i=c" />
   </a>
