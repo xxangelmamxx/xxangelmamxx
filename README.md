@@ -37,14 +37,14 @@
   <a href="https://www.mysql.com">
     <img src="https://skillicons.dev/icons?i=mysql" />
   </a>
-	<a href="https://code.visualstudio.com/docs/languages/cpp">
+	<a href="https://sqlite.org">
 		<img src="https://skillicons.dev/icons?i=sqlite" />
 	</a>
-	<a href="https://sqlite.org">
-		<img src="https://skillicons.dev/icons?i=redhat" />
+	<a href="https://www.postgresql.org">
+		<img src="https://skillicons.dev/icons?i=postgres" />
 	</a>
 	<a href="https://www.python.org">
-		<img src="https://skillicons.dev/icons?i=python" />
+		<img src="https://skillicons.dev/icons?i=py" />
 	</a>
 	<a href="https://flask.palletsprojects.com/en/stable/">
 		<img src="https://skillicons.dev/icons?i=flask" />
