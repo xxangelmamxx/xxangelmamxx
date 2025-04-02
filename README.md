@@ -18,6 +18,9 @@
 	<a href="https://www.redhat.com/en">
 		<img src="https://skillicons.dev/icons?i=redhat" />
 	</a>
+	<a href="https://www.perl.org">
+		<img src="https://skillicons.dev/icons?i=perl" />
+	</a>
 	<a href="https://git-scm.com">
 		<img src="https://skillicons.dev/icons?i=git" />
 	</a>
