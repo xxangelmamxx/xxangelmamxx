@@ -26,6 +26,10 @@
 	</a>
 </p>
 
+### Cyber Security
+>Completed a cybersecurity course through codepath that consisted of various capture the flag based assignments involving burp suite, kali linux, SQLinjections, and hashing.
+
+
 ##
 
 <!-- Tech Stack -->
