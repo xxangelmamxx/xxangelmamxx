@@ -9,12 +9,15 @@
 <!-- Operating Sytems -->
 ### Operating Systems:
 <p align="right">
-  <a href="https://code.visualstudio.com/docs/languages/cpp">
-    <img src="https://skillicons.dev/icons?i=c" />
-  </a>
+  	<a href="https://code.visualstudio.com/docs/languages/cpp">
+    		<img src="https://skillicons.dev/icons?i=c" />
+  	</a>
 	<a href="https://code.visualstudio.com/docs/languages/cpp">
 		<img src="https://skillicons.dev/icons?i=cpp" />
 	</a>
+	<a href="https://dotnet.microsoft.com/en-us/">
+    		<img src="https://skillicons.dev/icons?i=dotnet" />
+  	</a>
 	<a href="https://www.perl.org">
 		<img src="https://skillicons.dev/icons?i=perl" />
 	</a>
@@ -53,9 +56,6 @@
 	</a>
 	<a href="https://www.java.com/en/">
 		<img src="https://skillicons.dev/icons?i=java" />
-	</a>
-	<a href="https://www.python.org">
-		<img src="https://skillicons.dev/icons?i=py" />
 	</a>
 	<a href="https://jquery.com">
 		<img src="https://skillicons.dev/icons?i=jquery" />
