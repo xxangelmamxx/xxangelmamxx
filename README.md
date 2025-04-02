@@ -18,8 +18,8 @@
 ##
 
 <!-- Tech Stack -->
-<p align ="right">
-	<a><img src="https://github.com/user-attachments/assets/a077729f-dc52-4d0d-97c0-f046eccb2de0" alt="Tech Stack" width = "500"></a>
+<p>
+	<a><img src="https://github.com/user-attachments/assets/a077729f-dc52-4d0d-97c0-f046eccb2de0" alt="Tech Stack" width = "400"></a>
 </p>
 
 <h3 align="right">Operating Systems:</h3>
