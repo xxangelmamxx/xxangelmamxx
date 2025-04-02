@@ -19,7 +19,9 @@
 	<a><img src="https://github.com/user-attachments/assets/05ac0556-8b51-471f-9609-cc017267c817" alt="Certifications" width = "400"></a>
 </p>
 
-[Abha Mam.pdf](https://github.com/user-attachments/files/19576886/Abha.Mam.pdf)
+<a href="https://drive.google.com/file/d/14RUpj3geWj6El6QFFofZ9rFuX7JPhjfT/view">
+	<img src="https://github.com/user-attachments/files/19576886/Abha.Mam.pdf" width = "300" />
+</a>
 
 ##
 
