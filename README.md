@@ -1,6 +1,6 @@
-<h1 align="center">
+<p align="center">
 	  <a><img src="https://github.com/user-attachments/assets/5ef50ec4-5fa2-4156-8df2-b1a68225ba07" alt="Abha Mam" width = "600"></a>
-</h1>
+</p>
 
 <p align ="right">
 	<a><img src="https://github.com/user-attachments/assets/8a5a8921-3301-4300-a96a-01d98b17e5ca" alt="Tech Stack" width = "600"></a>
