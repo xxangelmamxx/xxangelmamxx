@@ -7,7 +7,7 @@
 <h1 align="center"; style="font-weight: bolder;">TECH STACK</h1>
 
 <!-- Operating Sytems -->
-### Operating Systems
+### Operating Systems:
 <p align="right">
   <a href="https://code.visualstudio.com/docs/languages/cpp">
     <img src="https://skillicons.dev/icons?i=c" />
@@ -30,17 +30,14 @@
 	<a href="https://www.redhat.com/en">
 		<img src="https://skillicons.dev/icons?i=linux" />
 	</a>
-	<a href="https://www.vim.org">
-		<img src="https://skillicons.dev/icons?i=vim" />
-	</a>
-	<a href="https://code.visualstudio.com">
-		<img src="https://skillicons.dev/icons?i=vscode" />
+	<a href="https://www.raspberrypi.com">
+		<img src="https://skillicons.dev/icons?i=rasberrypi" />
 	</a>
 </p>
 
 <br>
 
-### DBMS
+### DBMS:
 <p align="right">
   <a href="https://www.mysql.com">
     <img src="https://skillicons.dev/icons?i=mysql" />
@@ -63,26 +60,23 @@
 	<a href="https://jquery.com">
 		<img src="https://skillicons.dev/icons?i=jquery" />
 	</a>
-	<a href="https://code.visualstudio.com">
-		<img src="https://skillicons.dev/icons?i=vscode" />
-	</a>
-	<a href="https://www.jetbrains.com/pycharm/">
-		<img src="https://skillicons.dev/icons?i=pycharm" />
-	</a>
 </p>
 
 <br>
 
-### Web Dev
+### Web Dev:
 <p align="right">
-  <a href="https://nodejs.org/en">
-    <img src="https://skillicons.dev/icons?i=nodejs" />
-  </a>
-	<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-		<img src="https://skillicons.dev/icons?i=js" />
-	</a>
 	<a href="https://react.dev">
 		<img src="https://skillicons.dev/icons?i=react" />
+	</a>
+	<a href="https://nodejs.org/en">
+    		<img src="https://skillicons.dev/icons?i=nodejs" />
+  	</a>
+  	<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+		<img src="https://skillicons.dev/icons?i=js" />
+	</a>
+	<a href="https://www.typescriptlang.org">
+		<img src="https://skillicons.dev/icons?i=ts" />
 	</a>
 	<a href="https://nextjs.org">
 		<img src="https://skillicons.dev/icons?i=nextjs" />
@@ -95,6 +89,9 @@
 	</a>
 	<a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
 		<img src="https://skillicons.dev/icons?i=css" />
+	</a>
+	<a href="https://vuejs.org">
+		<img src="https://skillicons.dev/icons?i=vue" />
 	</a>
 	<a href="https://www.npmjs.com">
 		<img src="https://skillicons.dev/icons?i=npm" />
@@ -111,7 +108,25 @@
 	<a href="https://www.blender.org">
 		<img src="https://skillicons.dev/icons?i=blender" />
 	</a>
-	<a href="https://code.visualstudio.com">
+</p>
+
+<br>
+
+### IDEs:
+<p align="right">
+  	<a href="https://code.visualstudio.com">
 		<img src="https://skillicons.dev/icons?i=vscode" />
+	</a>
+	<a href="https://www.jetbrains.com/pycharm/">
+		<img src="https://skillicons.dev/icons?i=pycharm" />
+	</a>
+	<a href="https://www.vim.org">
+		<img src="https://skillicons.dev/icons?i=vim" />
+	</a>
+	<a href="https://visualstudio.microsoft.com">
+		<img src="https://skillicons.dev/icons?i=visualstudio" />
+	</a>
+	<a href="https://www.eclipse.org">
+		<img src="https://skillicons.dev/icons?i=eclipse" />
 	</a>
 </p>
