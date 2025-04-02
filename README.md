@@ -2,13 +2,23 @@
 	  <a><img src="https://github.com/user-attachments/assets/5ef50ec4-5fa2-4156-8df2-b1a68225ba07" alt="Abha Mam" width = "600"></a>
 </p>
 
+> Hi there!
+>
+> I'm Abha.
+> Welcome to my github, feel free to explore my public repos
+> and reach out if you have any suggestions/ and or you might
+> want to collaborate on something.
+
+
+
 ##
 
+
+<!-- Tech Stack -->
 <p align ="right">
 	<a><img src="https://github.com/user-attachments/assets/8a5a8921-3301-4300-a96a-01d98b17e5ca" alt="Tech Stack" width = "500"></a>
 </p>
 
-<!-- Operating Sytems -->
 <h3 align="right">Operating Systems:</h3>
 <p align="right">
   	<a href="https://code.visualstudio.com/docs/languages/cpp">
