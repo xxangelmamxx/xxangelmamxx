@@ -3,8 +3,7 @@
 </h1>
 
 <p>
-	<a><img src="https://github.com/user-attachments/assets/1e84232e-aa06-4f80-8f5e-5e0ceef05a8d" alt="Tech Stack" width = "400"></a>
-
+	<a><img src="https://github.com/user-attachments/assets/8a5a8921-3301-4300-a96a-01d98b17e5ca" alt="Tech Stack" width = "400"></a>
 </p>
 
 <!-- Operating Sytems -->
