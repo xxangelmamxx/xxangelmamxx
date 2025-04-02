@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h1 align="center"; weight = "bold";>TECH STACK</h1>
+<h1 align="center";><strong>TECH STACK</strong></h1>
 
 <!-- Operating Sytems -->
 ### Operating Systems
