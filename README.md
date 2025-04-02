@@ -4,10 +4,10 @@
   <br>
 </h1>
 
-<h1>
+<p>
 	<a><img src="https://github.com/user-attachments/assets/1e84232e-aa06-4f80-8f5e-5e0ceef05a8d" alt="Tech Stack" width = "400"></a>
 
-</h1>
+</p>
 
 <!-- Operating Sytems -->
 ### Operating Systems:
