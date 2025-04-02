@@ -38,7 +38,7 @@
 	</a>
 </p>
 
-### DBMS:
+<h3 align="right">DBMS:</h3>
 <p align="right">
   <a href="https://www.mysql.com">
     <img src="https://skillicons.dev/icons?i=mysql" />
@@ -60,7 +60,7 @@
 	</a>
 </p>
 
-### Web Dev:
+<h3 align="right">Web Dev:</h3>
 <p align="right">
 	<a href="https://react.dev">
 		<img src="https://skillicons.dev/icons?i=react" />
@@ -106,7 +106,7 @@
 	</a>
 </p>
 
-### IDEs:
+<h3 align="right">IDEs:</h3>
 <p align="right">
   	<a href="https://code.visualstudio.com">
 		<img src="https://skillicons.dev/icons?i=vscode" />
@@ -125,7 +125,7 @@
 	</a>
 </p>
 
-### Collaborative Spaces:
+<h3 align="right">Collaborative Spaces:</h3>
 <p align="right">
   	<a href="https://github.com">
 		<img src="https://skillicons.dev/icons?i=github" />
