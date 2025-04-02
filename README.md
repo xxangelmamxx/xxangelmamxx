@@ -18,6 +18,12 @@
 	<a href="https://www.redhat.com/en">
 		<img src="https://skillicons.dev/icons?i=redhat" />
 	</a>
+	<a href="https://git-scm.com">
+		<img src="https://skillicons.dev/icons?i=git" />
+	</a>
+	<a href="https://www.redhat.com/en">
+		<img src="https://skillicons.dev/icons?i=linux" />
+	</a>
 	<a href="https://www.vim.org">
 		<img src="https://skillicons.dev/icons?i=vim" />
 	</a>
