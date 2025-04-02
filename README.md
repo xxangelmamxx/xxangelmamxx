@@ -15,10 +15,11 @@
 
 ##
 
+##
 
 <!-- Tech Stack -->
 <p align ="right">
-	<a><img src="https://github.com/user-attachments/assets/8a5a8921-3301-4300-a96a-01d98b17e5ca" alt="Tech Stack" width = "500"></a>
+	<a><img src="https://github.com/user-attachments/assets/a077729f-dc52-4d0d-97c0-f046eccb2de0" alt="Tech Stack" width = "500"></a>
 </p>
 
 <h3 align="right">Operating Systems:</h3>
