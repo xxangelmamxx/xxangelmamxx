@@ -16,11 +16,13 @@
 ##
 <!-- Certifications -->
 <p align="right">
-	<a><img src="https://github.com/user-attachments/assets/05ac0556-8b51-471f-9609-cc017267c817" alt="Certifications style="box-shadow: 3px 3px 3px gray;" width = "400"></a>
+	<a><img src="https://github.com/user-attachments/assets/05ac0556-8b51-471f-9609-cc017267c817" alt="Certifications" width = "400"></a>
 </p>
 
-<a href="https://drive.google.com/file/d/14RUpj3geWj6El6QFFofZ9rFuX7JPhjfT/view">
-	<img src="https://github.com/user-attachments/files/19576886/Abha.Mam.pdf" width = "400", border = "1" />
+<a href="https://drive.google.com/file/d/14RUpj3geWj6El6QFFofZ9rFuX7JPhjfT/view" target="_blank">
+	<img src="https://github.com/user-attachments/files/19576886/Abha.Mam.pdf" 
+	     width="400" 
+	     style="box-shadow: 3px 3px 10px rgba(0,0,0,0.3); border: 1px solid #ccc;" />
 </a>
 
 ##
