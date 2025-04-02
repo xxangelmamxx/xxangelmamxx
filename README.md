@@ -4,4 +4,9 @@
   <br>
 </h1>
 
-<h2 style = "./demo.css";>Tech Stack</h2>
+<h2 align="right";>Tech Stack</h2>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,docker,c,cpp,vim" />
+  </a>
+</p>
