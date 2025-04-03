@@ -16,8 +16,8 @@
 ## 
 
 <!-- Certifications -->
-<p align="right">
-	<a><img src="https://github.com/user-attachments/assets/05ac0556-8b51-471f-9609-cc017267c817" alt="Certifications" width = "400"></a>
+<p">
+	<a><img src="https://github.com/user-attachments/assets/83f875d9-d1e3-4162-93cf-d7326a153f1f" alt="Certifications" width = "400"></a>
 </p>
 
 <p>
