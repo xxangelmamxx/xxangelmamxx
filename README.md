@@ -27,14 +27,11 @@
 </p>
 
 #### Cyber Security
->Completed a cybersecurity course through codepath that consisted of various capture the flag based assignments involving:
->>Burp Suite
-
->>Kali Linux
-
->>SQL injections
-
->>Hashing
+> Completed a cybersecurity course through CodePath that consisted of various capture-the-flag based assignments involving:
+> > Burp Suite  
+> > Kali Linux  
+> > SQL injections  
+> > Hashing
 
 
 ##
