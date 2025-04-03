@@ -39,7 +39,7 @@
 <br>
 <br>
 
-<p>
+<p align="right">
 	<a href="https://drive.google.com/file/d/14RUpj3geWj6El6QFFofZ9rFuX7JPhjfT/view" target="_blank">
 	  	<img src="https://github.com/user-attachments/assets/62fdcd06-1a6f-4c6d-926e-0a5441185cbc" width="300" />
 	</a>
@@ -56,7 +56,7 @@
 ##
 
 <!-- Tech Stack -->
-<p>
+<p align="right">
 	<a><img src="https://github.com/user-attachments/assets/a077729f-dc52-4d0d-97c0-f046eccb2de0" alt="Tech Stack" width = "400"></a>
 </p>
 
