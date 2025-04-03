@@ -22,9 +22,10 @@
 
 <p>
 	<a href="https://www.coursera.org/account/accomplishments/verify/ESVDZ4MFJBY5" target="_blank">
-	  	<img src="https://github.com/user-attachments/files/19577553/Coursera.ESVDZ4MFJBY5-2.pdf" width="300" />
+	  	<img src="https://github.com/user-attachments/assets/2092f46a-122c-41e2-96ae-234831a4e8e1" width="300" />
 	</a>
 </p>
+
 
 #### Cloud Computing
 > Completed an intro to cloud computing course which covered:
