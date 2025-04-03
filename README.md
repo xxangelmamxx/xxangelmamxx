@@ -23,9 +23,9 @@
 <br>
 <br>
 
-<p  align="right">
+<p  align="center">
 	<a href="https://www.coursera.org/account/accomplishments/verify/ESVDZ4MFJBY5" target="_blank">
-	  	<img src="https://github.com/user-attachments/assets/2092f46a-122c-41e2-96ae-234831a4e8e1" width="300" />
+	  	<img src="https://github.com/user-attachments/assets/2092f46a-122c-41e2-96ae-234831a4e8e1" width="400" />
 	</a>
 </p>
 
@@ -39,9 +39,9 @@
 <br>
 <br>
 
-<p align="right">
+<p align="center">
 	<a href="https://drive.google.com/file/d/14RUpj3geWj6El6QFFofZ9rFuX7JPhjfT/view" target="_blank">
-	  	<img src="https://github.com/user-attachments/assets/62fdcd06-1a6f-4c6d-926e-0a5441185cbc" width="300" />
+	  	<img src="https://github.com/user-attachments/assets/62fdcd06-1a6f-4c6d-926e-0a5441185cbc" width="400" />
 	</a>
 </p>
 
