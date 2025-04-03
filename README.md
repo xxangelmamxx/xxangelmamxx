@@ -1,6 +1,8 @@
 <p align="center">
-	  <a><img src="https://github.com/user-attachments/assets/5ef50ec4-5fa2-4156-8df2-b1a68225ba07" alt="Abha Mam" width = "600"></a>
+	  <a><img src="https://github.com/user-attachments/assets/40c3e32a-17c4-4bdc-81a6-60cd6445f0b2" alt="Abha Mam" width = "600"></a>
 </p>
+
+<!-- https://github.com/user-attachments/assets/5ef50ec4-5fa2-4156-8df2-b1a68225ba07 -->
 
 > Hi there!
 >
