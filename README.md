@@ -23,7 +23,7 @@
 <br>
 <br>
 
-<p>
+<p  align="right">
 	<a href="https://www.coursera.org/account/accomplishments/verify/ESVDZ4MFJBY5" target="_blank">
 	  	<img src="https://github.com/user-attachments/assets/2092f46a-122c-41e2-96ae-234831a4e8e1" width="300" />
 	</a>
@@ -56,7 +56,7 @@
 ##
 
 <!-- Tech Stack -->
-<p align="right">
+<p>
 	<a><img src="https://github.com/user-attachments/assets/a077729f-dc52-4d0d-97c0-f046eccb2de0" alt="Tech Stack" width = "400"></a>
 </p>
 
