@@ -21,6 +21,18 @@
 </p>
 
 <p>
+	<a href="https://www.coursera.org/account/accomplishments/verify/ESVDZ4MFJBY5" target="_blank">
+	  	<img src="https://github.com/user-attachments/files/19577553/Coursera.ESVDZ4MFJBY5-2.pdf" width="300" />
+	</a>
+</p>
+
+#### Cloud Computing
+> Completed an intro to cloud computing course which covered:
+> > SaaS, PaaS,IaaS  
+> > Cloud Security  
+> > Case Studies
+
+<p>
 	<a href="https://drive.google.com/file/d/14RUpj3geWj6El6QFFofZ9rFuX7JPhjfT/view" target="_blank">
 	  	<img src="https://github.com/user-attachments/assets/62fdcd06-1a6f-4c6d-926e-0a5441185cbc" width="300" />
 	</a>
