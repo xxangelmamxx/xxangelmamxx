@@ -38,6 +38,8 @@
 	</a>
 </p>
 
+<br>
+
 #### Cyber Security
 > Completed a cybersecurity course through CodePath that consisted of various capture-the-flag based assignments involving:
 > > Burp Suite  
