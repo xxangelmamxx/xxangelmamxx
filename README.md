@@ -52,7 +52,7 @@
 > > Burp Suite  
 > > Kali Linux  
 > > SQL injections  
-> > Hashing
+> > Hashing  
 > > OWASP
 
 
