@@ -80,6 +80,9 @@
 	<a href="https://git-scm.com">
 		<img src="https://skillicons.dev/icons?i=git" />
 	</a>
+	<a href="https://www.docker.com">
+		<img src="https://skillicons.dev/icons?i=docker" />
+	</a>
 	<a href="https://www.redhat.com/en">
 		<img src="https://skillicons.dev/icons?i=redhat" />
 	</a>
