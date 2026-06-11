@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/40c3e32a-17c4-4bdc-81a6-60cd6445f0b2" alt="Abha Mam" width="600">
+  <img src="https://github.com/user-attachments/assets/40c3e32a-17c4-4bdc-81a6-60cd6445f0b2" alt="Abha Mam" width="400">
 </p>
 
 <!-- 
