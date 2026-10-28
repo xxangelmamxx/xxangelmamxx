@@ -4,44 +4,61 @@
   │                                            │
   │             ABHA'S LITTLE WORLD            │
   │                                            │
-  │     built with curiosity & caffeine ♡      │
+  │       built with curiosity & chaos ♡       │
   │                                            │
   ╰────────────────────────────────────────────╯
 -->
 
-<!-- HERO -->
+<!-- ═══════════════ HERO ═══════════════ -->
 
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/ef5e6205-e6f2-4cd5-99de-f7dab63c6a0f" width="100%" alt="ABHA MAM" />
+<img
+  src="https://github.com/user-attachments/assets/ef5e6205-e6f2-4cd5-99de-f7dab63c6a0f"
+  width="100%"
+  alt="ABHA MAM"
+/>
 
 <br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=500&size=19&duration=3000&pause=1100&color=B5A4DB&center=true&vCenter=true&repeat=true&width=600&height=45&lines=software+developer+%E2%9C%A7+creative+coder;building+things+that+probably+shouldn't+exist;turning+random+ideas+into+actual+software;currently+debugging+my+own+decisions..." alt="Typing Animation" />
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=500&size=19&duration=3000&pause=1100&color=B5A4DB&center=true&vCenter=true&repeat=true&width=600&height=45&lines=software+developer+%E2%9C%A7+creative+coder;turning+random+ideas+into+actual+software;building+things+that+probably+shouldn't+exist;currently+debugging+my+own+decisions..."
+    alt="Animated Developer Introduction"
+  />
 </a>
 
 <br/>
 
 **somewhere between creative chaos and clean code.**
 
-<br/>
+<br/><br/>
 
 <a href="https://www.linkedin.com/in/abha-mam/">
-  <img src="https://img.shields.io/badge/LinkedIn-B5A4DB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <img
+    src="https://img.shields.io/badge/LinkedIn-B5A4DB?style=for-the-badge&logo=linkedin&logoColor=white"
+    alt="LinkedIn"
+  />
 </a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=xxangelmamxx&label=curious+visitors&color=b5a4db&style=flat-square" alt="Profile Views" />
+<img
+  src="https://komarev.com/ghpvc/?username=xxangelmamxx&label=curious+visitors&color=b5a4db&style=flat-square"
+  alt="Profile Views"
+/>
 
 </div>
 
 <br/>
 
-<!-- ABOUT ME -->
+<!-- ═══════════════ ABOUT ═══════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:B5A4DB,50:D6A6BF,100:7D709C&height=2&section=header" width="100%" />
+<img
+  src="https://capsule-render.vercel.app/api?type=rect&color=0:B5A4DB,50:D6A6BF,100:7D709C&height=2&section=header"
+  width="100%"
+  alt=""
+/>
 
 ### ✦ a little bit about me
 
@@ -79,9 +96,13 @@ I enjoy everything from low-level systems to creative web development, and I'm a
 
 <br/>
 
-<!-- TECH STACK -->
+<!-- ═══════════════ TECH STACK ═══════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7D709C,50:B5A4DB,100:D6A6BF&height=2&section=header" width="100%" />
+<img
+  src="https://capsule-render.vercel.app/api?type=rect&color=0:7D709C,50:B5A4DB,100:D6A6BF&height=2&section=header"
+  width="100%"
+  alt=""
+/>
 
 ### ✦ the tech behind the chaos
 
@@ -97,11 +118,17 @@ I enjoy everything from low-level systems to creative web development, and I'm a
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=py,js,c,cpp,java,cs&theme=dark&perline=6" alt="Programming Languages" />
+<img
+  src="https://skillicons.dev/icons?i=py,js,c,cpp,java,cs&theme=dark&perline=6"
+  alt="Programming Languages"
+/>
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=html,css,r,bash&theme=dark&perline=6" alt="Web and scripting languages" />
+<img
+  src="https://skillicons.dev/icons?i=html,css,r,bash&theme=dark&perline=6"
+  alt="Web and Scripting Languages"
+/>
 
 <br/>
 
@@ -114,7 +141,10 @@ I enjoy everything from low-level systems to creative web development, and I'm a
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=react,threejs,vite&theme=dark&perline=3" alt="Frontend Technologies" />
+<img
+  src="https://skillicons.dev/icons?i=react,threejs,vite&theme=dark&perline=3"
+  alt="Frontend Technologies"
+/>
 
 <br/><br/>
 
@@ -131,11 +161,17 @@ I enjoy everything from low-level systems to creative web development, and I'm a
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,flask&theme=dark&perline=3" alt="Backend Technologies" />
+<img
+  src="https://skillicons.dev/icons?i=nodejs,express,flask&theme=dark&perline=3"
+  alt="Backend Technologies"
+/>
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,supabase&theme=dark&perline=3" alt="Databases" />
+<img
+  src="https://skillicons.dev/icons?i=postgres,mysql,supabase&theme=dark&perline=3"
+  alt="Databases"
+/>
 
 <br/>
 
@@ -148,7 +184,10 @@ I enjoy everything from low-level systems to creative web development, and I'm a
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark&perline=3" alt="Machine Learning" />
+<img
+  src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark&perline=3"
+  alt="Machine Learning Technologies"
+/>
 
 <br/><br/>
 
@@ -164,7 +203,12 @@ I enjoy everything from low-level systems to creative web development, and I'm a
 
 **05 / developer toolkit**
 
-<img src="https://skillicons.dev/icons?i=git,github,docker,linux&theme=dark&perline=8" alt="Development Tools" />
+<br/>
+
+<img
+  src="https://skillicons.dev/icons?i=git,github,docker,linux&theme=dark&perline=8"
+  alt="Developer Tools"
+/>
 
 <br/>
 
@@ -172,9 +216,13 @@ I enjoy everything from low-level systems to creative web development, and I'm a
 
 <br/><br/>
 
-<!-- CURRENTLY -->
+<!-- ═══════════════ SIDE QUESTS ═══════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:B5A4DB,50:D6A6BF,100:7D709C&height=2&section=header" width="100%" />
+<img
+  src="https://capsule-render.vercel.app/api?type=rect&color=0:B5A4DB,50:D6A6BF,100:7D709C&height=2&section=header"
+  width="100%"
+  alt=""
+/>
 
 ### ✦ current side quests
 
@@ -197,9 +245,13 @@ I enjoy everything from low-level systems to creative web development, and I'm a
 
 <br/>
 
-<!-- GITHUB ACTIVITY -->
+<!-- ═══════════════ GITHUB ACTIVITY ═══════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7D709C,50:B5A4DB,100:D6A6BF&height=2&section=header" width="100%" />
+<img
+  src="https://capsule-render.vercel.app/api?type=rect&color=0:7D709C,50:B5A4DB,100:D6A6BF&height=2&section=header"
+  width="100%"
+  alt=""
+/>
 
 ### ✦ github after hours
 
@@ -209,25 +261,48 @@ I enjoy everything from low-level systems to creative web development, and I'm a
 
 <div align="center">
 
-<img src="https://github-stats-extended.vercel.app/api?username=xxangelmamxx&show_icons=true&hide_border=true&bg_color=00000000&title_color=B5A4DB&icon_color=D6A6BF&text_color=A99BBF" height="165" alt="GitHub Stats" />
+<img
+  src="https://github-stats-extended.vercel.app/api?username=xxangelmamxx&show_icons=true&hide_border=true&bg_color=00000000&title_color=B5A4DB&icon_color=D6A6BF&text_color=A99BBF"
+  height="165"
+  alt="GitHub Statistics"
+/>
 
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=xxangelmamxx&layout=compact&hide_border=true&bg_color=00000000&title_color=B5A4DB&text_color=A99BBF" height="165" alt="Top Languages" />
+<img
+  src="https://github-stats-extended.vercel.app/api/top-langs/?username=xxangelmamxx&layout=compact&hide_border=true&bg_color=00000000&title_color=B5A4DB&text_color=A99BBF"
+  height="165"
+  alt="Most Used Languages"
+/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=xxangelmamxx&hide_border=true&background=00000000&ring=B5A4DB&fire=D6A6BF&currStreakLabel=B5A4DB&sideLabels=A99BBF&dates=A99BBF&currStreakNum=B5A4DB&sideNums=D6A6BF" alt="GitHub Streak" />
+<img
+  src="https://streak-stats.demolab.com/?user=xxangelmamxx&hide_border=true&background=00000000&ring=B5A4DB&fire=D6A6BF&currStreakLabel=B5A4DB&sideLabels=A99BBF&dates=A99BBF&currStreakNum=B5A4DB&sideNums=D6A6BF"
+  alt="GitHub Contribution Streak"
+/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=xxangelmamxx&bg_color=00000000&color=B5A4DB&line=D6A6BF&point=7D709C&area=true&area_color=B5A4DB&hide_border=true&custom_title=the%20commit%20chronicles" width="100%" alt="Contribution Activity Graph" />
+<!-- Contribution Calendar -->
+
+<a href="https://github.com/xxangelmamxx">
+  <img
+    src="https://ghchart.rshah.org/B5A4DB/xxangelmamxx"
+    width="100%"
+    alt="Abha's GitHub Contribution Calendar"
+  />
+</a>
 
 </div>
 
 <br/>
 
-<!-- ACHIEVEMENTS -->
+<!-- ═══════════════ ACHIEVEMENTS ═══════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:B5A4DB,50:D6A6BF,100:7D709C&height=2&section=header" width="100%" />
+<img
+  src="https://capsule-render.vercel.app/api?type=rect&color=0:B5A4DB,50:D6A6BF,100:7D709C&height=2&section=header"
+  width="100%"
+  alt=""
+/>
 
 ### ✦ achievements unlocked
 
@@ -244,9 +319,13 @@ I enjoy everything from low-level systems to creative web development, and I'm a
 
 <br/>
 
-<!-- SECRET SECTION -->
+<!-- ═══════════════ EASTER EGG ═══════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7D709C,50:D6A6BF,100:B5A4DB&height=2&section=header" width="100%" />
+<img
+  src="https://capsule-render.vercel.app/api?type=rect&color=0:7D709C,50:D6A6BF,100:B5A4DB&height=2&section=header"
+  width="100%"
+  alt=""
+/>
 
 ### ✦ a tiny easter egg
 
@@ -273,11 +352,15 @@ congratulations, you are now legally obligated to have a good day ♡
 
 <br/>
 
-<!-- FOOTER -->
+<!-- ═══════════════ FOOTER ═══════════════ -->
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:B5A4DB,50:D6A6BF,100:7D709C&height=90&section=header" width="100%" alt="Decorative wave" />
+<img
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:B5A4DB,50:D6A6BF,100:7D709C&height=90&section=header"
+  width="100%"
+  alt=""
+/>
 
 <br/>
 
