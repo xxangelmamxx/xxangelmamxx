@@ -119,83 +119,20 @@ const abha = {
 
 *things i've learned, used, broken, fixed, and occasionally fought with.*
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<img src="assets/inventory.svg" width="100%" alt="Inventory of 44 items, listed in full below." />
 
-**01 / languages**
+<details>
+<summary><b>view as plain text</b></summary>
 
-<img
-  src="https://skillicons.dev/icons?i=py,js,c,cpp,java,cs&theme=dark&perline=6"
-  alt="Programming Languages"
-/>
+| shelf | items |
+|:--|:--|
+| **languages** | Python, JavaScript, C, C++, Java, C#, HTML, CSS, R, Bash, SQL, VB.NET |
+| **frontend & creative** | React, Three.js, Vite, Phaser 3, WebGL, OpenGL, PDF.js, Pygame |
+| **backend & databases** | Node.js, Express, Flask, PostgreSQL, MySQL, Supabase, REST APIs, WebSockets, Colyseus |
+| **data & machine learning** | TensorFlow, PyTorch, PySpark, Pandas, NumPy, Spark MLlib, Gymnasium |
+| **developer toolkit** | Git, GitHub, Docker, Linux, GitLab CI, Claude Code, POSIX Threads, Google Cloud Translation API |
 
-<img
-  src="https://skillicons.dev/icons?i=html,css,r,bash&theme=dark&perline=6"
-  alt="Web and Scripting Languages"
-/>
-
-`SQL` `VB.NET`
-
-</td>
-<td width="50%" valign="top">
-
-**02 / frontend & creative coding**
-
-<img
-  src="https://skillicons.dev/icons?i=react,threejs,vite&theme=dark&perline=3"
-  alt="Frontend Technologies"
-/>
-
-`Phaser 3` `WebGL` `OpenGL`
-
-`PDF.js` `Pygame`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**03 / backend & databases**
-
-<img
-  src="https://skillicons.dev/icons?i=nodejs,express,flask&theme=dark&perline=3"
-  alt="Backend Technologies"
-/>
-
-<img
-  src="https://skillicons.dev/icons?i=postgres,mysql,supabase&theme=dark&perline=3"
-  alt="Databases"
-/>
-
-`REST APIs` `WebSockets` `Colyseus`
-
-</td>
-<td valign="top">
-
-**04 / data & machine learning**
-
-<img
-  src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark&perline=3"
-  alt="Machine Learning Technologies"
-/>
-
-`PySpark` `Pandas` `NumPy`
-
-`Spark MLlib` `Gymnasium`
-
-</td>
-</tr>
-</table>
-
-**05 / developer toolkit**
-
-<img
-  src="https://skillicons.dev/icons?i=git,github,docker,linux&theme=dark&perline=8"
-  alt="Developer Tools"
-/>
-
-`GitLab CI` `Claude Code` `POSIX Threads` `Google Cloud Translation API`
+</details>
 
 <!-- ═══════════════ SIDE QUESTS ═══════════════ -->
 

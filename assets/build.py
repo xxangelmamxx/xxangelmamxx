@@ -78,6 +78,28 @@ CARDS = [
         "icon": "crosshair",
     },
 ]
+INVENTORY = [  # shelf name, items: (label, icon file in assets/icons, or a short code for a pixel tile)
+    ("LANGUAGES", [
+        ("Python", "py"), ("JavaScript", "js"), ("C", "c"), ("C++", "cpp"), ("Java", "java"), ("C#", "cs"),
+        ("HTML", "html"), ("CSS", "css"), ("R", "r"), ("Bash", "bash"), ("SQL", "=SQL"), ("VB.NET", "dotnet"),
+    ]),
+    ("FRONTEND + CREATIVE", [
+        ("React", "react"), ("Three.js", "threejs"), ("Vite", "vite"), ("Phaser 3", "=PH3"),
+        ("WebGL", "=WGL"), ("OpenGL", "=OGL"), ("PDF.js", "=PDF"), ("Pygame", "=PYG"),
+    ]),
+    ("BACKEND + DATABASES", [
+        ("Node.js", "nodejs"), ("Express", "express"), ("Flask", "flask"), ("PostgreSQL", "postgres"),
+        ("MySQL", "mysql"), ("Supabase", "supabase"), ("REST APIs", "=API"), ("WebSockets", "=WS"), ("Colyseus", "=COL"),
+    ]),
+    ("DATA + ML", [
+        ("TensorFlow", "tensorflow"), ("PyTorch", "pytorch"), ("PySpark", "=SPK"), ("Pandas", "=PD"),
+        ("NumPy", "=NP"), ("Spark MLlib", "=ML"), ("Gymnasium", "=GYM"),
+    ]),
+    ("DEV TOOLKIT", [
+        ("Git", "git"), ("GitHub", "github"), ("Docker", "docker"), ("Linux", "linux"), ("GitLab CI", "gitlab"),
+        ("Claude Code", "=CC"), ("pthreads", "=PTH"), ("Translation", "gcp"),
+    ]),
+]
 # ─────────────────────────────────────────────────────────────────────────────
 
 BG = "#171322"
@@ -465,6 +487,79 @@ def footer():
     svg("footer", W, H, css, body, "Game saved. A pixel cat sleeps on a hill.")
 
 
+def inventory():
+    W, PER_ROW, SLOT, PITCH_X, PITCH_Y, LEFT = 1000, 9, 54, 90, 86, 172
+    TILE = [LILAC, PINK, "#9D8FC4", "#C8A9D6", PINK]
+    shelves, stops, y, total = [], [], 62, 0
+    for s, (name, items) in enumerate(INVENTORY):
+        rows = (len(items) + PER_ROW - 1) // PER_ROW
+        words = name.split(" + ")
+        head = "".join(
+            f'<text class="px" x="32" y="{y + 38 + i * 19 - (len(words) - 1) * 9}" font-size="14" fill="{TEXT}">'
+            f'{"+ " if i else ""}{escape(w)}</text>'
+            for i, w in enumerate(words)
+        ) if len(name) > 14 else f'<text class="px" x="32" y="{y + 38}" font-size="14" fill="{TEXT}">{escape(name)}</text>'
+        shelves.append(
+            f'<rect x="20" y="{y + 8}" width="4" height="{rows * PITCH_Y - 22}" fill="{TILE[s]}"/>{head}'
+            f'<text class="mono" x="32" y="{y + 66}" font-size="11" fill="{PLUM}">{len(items)} items</text>'
+        )
+        for i, (label, art) in enumerate(items):
+            x, sy = LEFT + (i % PER_ROW) * PITCH_X + 18, y + (i // PER_ROW) * PITCH_Y + 2
+            slot = (
+                f'<rect x="{x}" y="{sy}" width="{SLOT}" height="{SLOT}" rx="6" fill="{BG}" stroke="{LINE}" stroke-width="2"/>'
+            )
+            if art.startswith("="):
+                code = art[1:]
+                size = {1: 22, 2: 20, 3: 16}[len(code)]
+                slot += (
+                    f'<rect x="{x + 7}" y="{sy + 7}" width="40" height="40" rx="4" fill="{PANEL}" stroke="{TILE[s]}" stroke-width="2"/>'
+                    f'<text class="px" x="{x + 27}" y="{sy + 27 + size * 0.36:.0f}" text-anchor="middle" font-size="{size}" fill="{TILE[s]}">{code}</text>'
+                )
+            else:
+                data = base64.b64encode((HERE / "icons" / f"{art}.svg").read_bytes()).decode()
+                slot += f'<image x="{x + 6}" y="{sy + 6}" width="42" height="42" href="data:image/svg+xml;base64,{data}"/>'
+            slot += (
+                f'<text class="mono" x="{x + SLOT / 2}" y="{sy + SLOT + 16}" text-anchor="middle" font-size="11.5" fill="{MUTED}">{escape(label)}</text>'
+            )
+            shelves.append(slot)
+            stops.append((x - 5, sy - 5))
+            total += 1
+        y += rows * PITCH_Y
+        if s < len(INVENTORY) - 1:
+            shelves.append(f'<rect x="20" y="{y - 6}" width="{W - 40}" height="2" fill="{LINE}" opacity=".6"/>')
+            y += 8
+    H = y + 34
+    # the cursor hops between slots: hold on each one, then jump to the next
+    n = len(stops)
+    frames = "".join(
+        f"{i * 100 / n:.3f}%,{(i + 0.86) * 100 / n:.3f}%{{transform:translate({sx}px,{sy}px)}}"
+        for i, (sx, sy) in enumerate(stops)
+    )
+    frames += f"100%{{transform:translate({stops[0][0]}px,{stops[0][1]}px)}}"
+    c, L = SLOT + 10, 13
+    corners = "".join(
+        f'<path fill="none" stroke="{PINK}" stroke-width="3" d="{d}"/>'
+        for d in (
+            f"M0 {L}V0H{L}", f"M{c - L} 0H{c}V{L}", f"M0 {c - L}V{c}H{L}", f"M{c - L} {c}H{c}V{c - L}",
+        )
+    )
+    css = (
+        f"@keyframes hop{{{frames}}}.cur{{animation:hop {n * 0.9:.1f}s linear infinite}}"
+        ".blink{animation:bl 1.1s steps(1) infinite}@keyframes bl{0%{opacity:1}50%{opacity:0}}"
+        ".pip{animation:pp 2.4s ease-in-out infinite}@keyframes pp{0%,100%{opacity:.35}50%{opacity:1}}"
+    )
+    body = (
+        f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="12" fill="{PANEL}" stroke="{LINE}" stroke-width="2"/>'
+        f'<text class="px" x="32" y="38" font-size="16" fill="{LILAC}" letter-spacing="2">INVENTORY</text>'
+        f'<text class="px" x="{W - 32}" y="38" text-anchor="end" font-size="13" fill="{MUTED}" letter-spacing="1">{total} ITEMS / WEIGHT: UNREASONABLE</text>'
+        f'<rect x="20" y="50" width="{W - 40}" height="2" fill="{LINE}"/>'
+        + "".join(shelves)
+        + f'<g class="cur" style="transform:translate({stops[0][0]}px,{stops[0][1]}px)">{corners}</g>'
+    )
+    alt = "Inventory. " + " ".join(f'{n.title()}: {", ".join(l for l, _ in it)}.' for n, it in INVENTORY)
+    svg("inventory", W, H, css, body, alt)
+
+
 hero()
 character()
 divider("divider-cat", "cat", 2, 22)
@@ -473,4 +568,5 @@ divider("divider-heart", HEART, 3, 24)
 for c in CARDS:
     card(c)
 quests()
+inventory()
 footer()
