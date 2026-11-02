@@ -14,6 +14,8 @@ jobs:
   snake:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -21,9 +23,11 @@ jobs:
             dist/snake-dark.svg?color_snake=#FF4FA3&color_dots=#1E1A2B,#7A5FD0,#9A7FE0,#BBA5F5,#E4DAFF
             dist/snake-light.svg?color_snake=#E6007E&color_dots=#EEE9F7,#B9A2EE,#9A7FE0,#7654CC,#4E2FA8
 
+      - run: python3 assets/snake_finale.py dist site
+
       - uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: site
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
