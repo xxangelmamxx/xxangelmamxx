@@ -13,13 +13,7 @@
 
 <div align="center">
 
-<img
-  src="https://github.com/user-attachments/assets/ef5e6205-e6f2-4cd5-99de-f7dab63c6a0f"
-  width="100%"
-  alt="ABHA MAM"
-/>
-
-<br/>
+<img src="assets/hero.svg" width="100%" alt="ABHA MAM: build, explore, create" />
 
 <a href="https://git.io/typing-svg">
   <img
@@ -28,11 +22,7 @@
   />
 </a>
 
-<br/>
-
 **somewhere between creative chaos and clean code.**
-
-<br/><br/>
 
 <a href="https://www.linkedin.com/in/abha-mam/">
   <img
@@ -41,26 +31,38 @@
   />
 </a>
 
-<br/><br/>
-
 <img
   src="https://komarev.com/ghpvc/?username=xxangelmamxx&label=curious+visitors&color=b5a4db&style=flat-square"
   alt="Profile Views"
 />
 
-</div>
+<sub><b>
+<a href="#-a-little-bit-about-me">PLAYER</a> ✧
+<a href="#-main-quests">QUESTS</a> ✧
+<a href="#-the-tech-behind-the-chaos">INVENTORY</a> ✧
+<a href="#-github-after-hours">STATS</a> ✧
+<a href="#-achievements-unlocked">TROPHIES</a> ✧
+<a href="#-a-tiny-easter-egg">???</a>
+</b></sub>
 
-<br/>
+</div>
 
 <!-- ═══════════════ ABOUT ═══════════════ -->
 
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&color=0:B5A4DB,50:D6A6BF,100:7D709C&height=2&section=header"
-  width="100%"
-  alt=""
-/>
+<img src="assets/divider-cat.svg" width="100%" alt="" />
 
 ### ✦ a little bit about me
+
+<img src="assets/character.svg" width="100%" alt="Character sheet for Abha Mam, class Creative Coder, guild CS at Penn State. Curiosity 99, chaos 87, clean code 74, debugging 68, sleep 12, open tabs infinite." />
+
+I like creating things that feel a little different.
+
+Sometimes that's a full-stack application. Sometimes it's a multiplayer game. Sometimes it's an unnecessarily elaborate interactive interface because apparently a normal button wasn't interesting enough.
+
+I enjoy everything from low-level systems to creative web development, and I'm always looking for an excuse to learn something new.
+
+<details>
+<summary><b>inspect player</b></summary>
 
 ```javascript
 const abha = {
@@ -88,27 +90,34 @@ const abha = {
 };
 ```
 
-I like creating things that feel a little different.
+</details>
 
-Sometimes that's a full-stack application. Sometimes it's a multiplayer game. Sometimes it's an unnecessarily elaborate interactive interface because apparently a normal button wasn't interesting enough.
+<!-- ═══════════════ MAIN QUESTS ═══════════════ -->
 
-I enjoy everything from low-level systems to creative web development, and I'm always looking for an excuse to learn something new.
+<img src="assets/divider-heart.svg" width="100%" alt="" />
 
-<br/>
+### ✦ main quests
+
+*the things that actually made it out of the idea stage.*
+
+<div align="center">
+
+<a href="https://github.com/xxangelmamxx/Mini-Shell-Project"><img src="assets/card-shell.svg" width="49%" alt="Mini-Shell: a bash-like shell written in C" /></a>
+<a href="https://github.com/xxangelmamxx/3D-Transformations-and-Heightmap-Based-Terrain-Rendering"><img src="assets/card-terrain.svg" width="49%" alt="Heightmap Terrain: a real-time 3D scene in Python and OpenGL" /></a>
+<a href="https://github.com/sanjaysaini383/observability-platform/pull/34"><img src="assets/card-tracelens.svg" width="49%" alt="TraceLens pull request 34, merged" /></a>
+<a href="https://github.com/xxangelmamxx/BobaLab"><img src="assets/card-boba.svg" width="49%" alt="BobaLab: a build-your-own boba shop" /></a>
+<a href="https://github.com/xxangelmamxx/Adulting-101"><img src="assets/card-adulting.svg" width="49%" alt="Adulting 101: finish tasks and level up" /></a>
+<a href="https://valorant-agent-lineups.vercel.app"><img src="assets/card-valorant.svg" width="49%" alt="Valorant Agent Lineups live demo" /></a>
+
+</div>
 
 <!-- ═══════════════ TECH STACK ═══════════════ -->
 
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&color=0:7D709C,50:B5A4DB,100:D6A6BF&height=2&section=header"
-  width="100%"
-  alt=""
-/>
+<img src="assets/divider-star.svg" width="100%" alt="" />
 
 ### ✦ the tech behind the chaos
 
 *things i've learned, used, broken, fixed, and occasionally fought with.*
-
-<br/>
 
 <table>
 <tr>
@@ -116,21 +125,15 @@ I enjoy everything from low-level systems to creative web development, and I'm a
 
 **01 / languages**
 
-<br/>
-
 <img
   src="https://skillicons.dev/icons?i=py,js,c,cpp,java,cs&theme=dark&perline=6"
   alt="Programming Languages"
 />
 
-<br/>
-
 <img
   src="https://skillicons.dev/icons?i=html,css,r,bash&theme=dark&perline=6"
   alt="Web and Scripting Languages"
 />
-
-<br/>
 
 `SQL` `VB.NET`
 
@@ -139,14 +142,10 @@ I enjoy everything from low-level systems to creative web development, and I'm a
 
 **02 / frontend & creative coding**
 
-<br/>
-
 <img
   src="https://skillicons.dev/icons?i=react,threejs,vite&theme=dark&perline=3"
   alt="Frontend Technologies"
 />
-
-<br/><br/>
 
 `Phaser 3` `WebGL` `OpenGL`
 
@@ -159,21 +158,15 @@ I enjoy everything from low-level systems to creative web development, and I'm a
 
 **03 / backend & databases**
 
-<br/>
-
 <img
   src="https://skillicons.dev/icons?i=nodejs,express,flask&theme=dark&perline=3"
   alt="Backend Technologies"
 />
 
-<br/>
-
 <img
   src="https://skillicons.dev/icons?i=postgres,mysql,supabase&theme=dark&perline=3"
   alt="Databases"
 />
-
-<br/>
 
 `REST APIs` `WebSockets` `Colyseus`
 
@@ -182,14 +175,10 @@ I enjoy everything from low-level systems to creative web development, and I'm a
 
 **04 / data & machine learning**
 
-<br/>
-
 <img
   src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark&perline=3"
   alt="Machine Learning Technologies"
 />
-
-<br/><br/>
 
 `PySpark` `Pandas` `NumPy`
 
@@ -199,65 +188,30 @@ I enjoy everything from low-level systems to creative web development, and I'm a
 </tr>
 </table>
 
-<br/>
-
 **05 / developer toolkit**
-
-<br/>
 
 <img
   src="https://skillicons.dev/icons?i=git,github,docker,linux&theme=dark&perline=8"
   alt="Developer Tools"
 />
 
-<br/>
-
 `GitLab CI` `Claude Code` `POSIX Threads` `Google Cloud Translation API`
-
-<br/><br/>
 
 <!-- ═══════════════ SIDE QUESTS ═══════════════ -->
 
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&color=0:B5A4DB,50:D6A6BF,100:7D709C&height=2&section=header"
-  width="100%"
-  alt=""
-/>
+<img src="assets/divider-heart.svg" width="100%" alt="" />
 
 ### ✦ current side quests
 
-```text
-┌─────────────────────────────────────────────────────┐
-│                                                     │
-│  QUEST LOG                              STATUS      │
-│  ─────────────────────────────────────────────────  │
-│                                                     │
-│  ✧ Build interesting projects           ACTIVE      │
-│  ✧ Get better at LeetCode               ACTIVE      │
-│  ✧ Contribute to open source            ACTIVE      │
-│  ✧ Learn better system design           ACTIVE      │
-│  ✧ Stop opening new browser tabs        FAILED      │
-│                                                     │
-│  CURRENT LEVEL: always learning                     │
-│                                                     │
-└─────────────────────────────────────────────────────┘
-```
-
-<br/>
+<img src="assets/quests.svg" width="100%" alt="Quest log. Active: build interesting projects, get better at LeetCode, contribute to open source, learn better system design. Failed: stop opening new browser tabs. Current level: always learning." />
 
 <!-- ═══════════════ GITHUB ACTIVITY ═══════════════ -->
 
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&color=0:7D709C,50:B5A4DB,100:D6A6BF&height=2&section=header"
-  width="100%"
-  alt=""
-/>
+<img src="assets/divider-cat.svg" width="100%" alt="" />
 
 ### ✦ github after hours
 
 *some evidence that i do, in fact, write code.*
-
-<br/>
 
 <div align="center">
 
@@ -266,73 +220,51 @@ I enjoy everything from low-level systems to creative web development, and I'm a
   height="165"
   alt="GitHub Statistics"
 />
-
 <img
   src="https://github-stats-extended.vercel.app/api/top-langs/?username=xxangelmamxx&layout=compact&hide_border=true&bg_color=00000000&title_color=B5A4DB&text_color=A99BBF"
   height="165"
   alt="Most Used Languages"
 />
 
-<br/><br/>
-
 <img
   src="https://streak-stats.demolab.com/?user=xxangelmamxx&hide_border=true&background=00000000&ring=B5A4DB&fire=D6A6BF&currStreakLabel=B5A4DB&sideLabels=A99BBF&dates=A99BBF&currStreakNum=B5A4DB&sideNums=D6A6BF"
   alt="GitHub Contribution Streak"
 />
 
-<br/><br/>
+<!-- Generated daily by .github/workflows/snake.yml -->
 
-<!-- Contribution Calendar -->
-
-<a href="https://github.com/xxangelmamxx">
-  <img
-    src="https://ghchart.rshah.org/B5A4DB/xxangelmamxx"
-    width="100%"
-    alt="Abha's GitHub Contribution Calendar"
-  />
-</a>
+<img
+  src="https://raw.githubusercontent.com/xxangelmamxx/xxangelmamxx/output/snake.svg"
+  width="100%"
+  alt="A pixel snake eating Abha's GitHub contribution graph"
+/>
 
 </div>
 
-<br/>
-
 <!-- ═══════════════ ACHIEVEMENTS ═══════════════ -->
 
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&color=0:B5A4DB,50:D6A6BF,100:7D709C&height=2&section=header"
-  width="100%"
-  alt=""
-/>
+<img src="assets/divider-star.svg" width="100%" alt="" />
 
 ### ✦ achievements unlocked
 
 *collecting knowledge like it's an RPG inventory.*
 
-<br/>
-
 | Achievement | Unlocked |
 |:--|:--|
+| ✿ **[Merged PR: TraceLens #34](https://github.com/sanjaysaini383/observability-platform/pull/34)** | Open Source · 2026 |
 | ✿ **[Intermediate Web Development](https://drive.google.com/file/d/1tEYbA8svLlamGG0tpbyJLTiKHR8q2Qwd/view)** | CodePath · 2025 |
 | ✿ **[Introduction to Cloud Computing](https://www.coursera.org/account/accomplishments/verify/ESVDZ4MFJBY5)** | IBM · 2023 |
 | ✿ **[Cybersecurity](https://drive.google.com/file/d/14RUpj3geWj6El6QFFofZ9rFuX7JPhjfT/view)** | CodePath · 2022 |
 | ✿ **[Startup Accelerator Program](https://www.credly.com/badges/ed31293c-cb3d-4457-ba95-e4074dfd071d/print)** | Design Thinking & Innovation |
 
-<br/>
-
 <!-- ═══════════════ EASTER EGG ═══════════════ -->
 
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&color=0:7D709C,50:D6A6BF,100:B5A4DB&height=2&section=header"
-  width="100%"
-  alt=""
-/>
+<img src="assets/divider-heart.svg" width="100%" alt="" />
 
 ### ✦ a tiny easter egg
 
 <details>
 <summary>psst... click here ✧</summary>
-
-<br/>
 
 ```text
    /\_/\
@@ -348,31 +280,32 @@ I enjoy everything from low-level systems to creative web development, and I'm a
 
 congratulations, you are now legally obligated to have a good day ♡
 
+<details>
+<summary>the cat is holding something...</summary>
+
+```text
+  ★ RARE DROP: one (1) closed browser tab
+
+  just kidding. it reopened itself.
+```
+
 </details>
 
-<br/>
+</details>
 
 <!-- ═══════════════ FOOTER ═══════════════ -->
 
+<br/>
+
 <div align="center">
 
-<img
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:B5A4DB,50:D6A6BF,100:7D709C&height=90&section=header"
-  width="100%"
-  alt=""
-/>
-
-<br/>
+<img src="assets/footer.svg" width="100%" alt="Game saved. A pixel cat sleeps on a hill." />
 
 ### thanks for visiting my little corner of the internet.
 
 *feel free to explore, say hi, or judge my commit history.*
 
-<br/>
-
 **made with ♡, curiosity, and an unreasonable number of open tabs.**
-
-<br/>
 
 <sub>the code works. why? excellent question.</sub>
 
