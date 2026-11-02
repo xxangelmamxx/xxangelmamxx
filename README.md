@@ -170,11 +170,11 @@ const abha = {
 
 <!-- Generated daily by .github/workflows/snake.yml -->
 
-<img
-  src="https://raw.githubusercontent.com/xxangelmamxx/xxangelmamxx/output/snake.svg"
-  width="100%"
-  alt="A pixel snake eating Abha's GitHub contribution graph"
-/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xxangelmamxx/xxangelmamxx/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/xxangelmamxx/xxangelmamxx/output/snake-light.svg" />
+  <img src="https://raw.githubusercontent.com/xxangelmamxx/xxangelmamxx/output/snake-dark.svg" width="100%" alt="A pixel snake eating Abha's GitHub contribution graph" />
+</picture>
 
 </div>
 
