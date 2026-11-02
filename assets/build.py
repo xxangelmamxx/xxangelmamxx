@@ -100,6 +100,23 @@ INVENTORY = [  # shelf name, items: (label, icon in assets/icons, +file for a lo
         ("Claude Code", "+claude.svg"), ("pthreads", "~spool"), ("Translation", "gcp"),
     ]),
 ]
+ACHIEVEMENTS = [  # file, rarity, xp, title lines, issuer, flavour text, emblem
+    ("ach-merged", "LEGENDARY", 1000, ["MERGED PR: TRACELENS #34"], "Open Source / 2026",
+     "fixed a real race condition in someone else's codebase.", "trophy"),
+    ("ach-web", "EPIC", 500, ["INTERMEDIATE", "WEB DEVELOPMENT"], "CodePath / 2025",
+     "survived the full stack.", "browser"),
+    ("ach-startup", "EPIC", 500, ["STARTUP ACCELERATOR", "PROGRAM"], "Design Thinking & Innovation",
+     "turned sticky notes into a pitch.", "rocket"),
+    ("ach-cloud", "RARE", 250, ["INTRODUCTION TO", "CLOUD COMPUTING"], "IBM / 2023",
+     "it's just someone else's computer.", "cloud"),
+    ("ach-cyber", "RARE", 250, ["CYBERSECURITY"], "CodePath / 2022",
+     "now suspicious of every link.", "shield"),
+]
+LOCKED = [  # secret achievements: name, progress
+    ("Close one browser tab", "0 / 1"),
+    ("Sleep eight hours", "0 / 8"),
+    ("Remember why that code works", "0 / 1"),
+]
 # ─────────────────────────────────────────────────────────────────────────────
 
 BG = "#171322"
@@ -119,6 +136,36 @@ PAL = {
     "t": "#E3C79A", "u": "#A98559", "n": "#14111F",
 }
 ICONS = {
+    "trophy": [
+        "..yyyyyyyyyyyy..", "yy.ywyyyyyyyy.yy", "y..ywyyyyyyoy..y", "y..ywyyyyyyoy..y", "yy.ywyyyyyyoy.yy",
+        ".yyywyyyyyyoyyy.", "....yyyyyyoo....", ".....yyyyoo.....", "......yyoo......", ".......yo.......",
+        ".......yo.......", "......yyoo......", ".....oooooo.....", "....uuuuuuuu....", "....uuuuuuuu....", "................",
+    ],
+    "browser": [
+        "................", "llllllllllllllll", "lrlylgllllllllll", "llllllllllllllll", "lnnnnnnnnnnnnnnl",
+        "lnpppppnnnnnnnnl", "lnnnbbbbbbnnnnnl", "lnnnbbbnnnnnnnnl", "lnnnnnggggggnnnl", "lnnnggggnnnnnnnl",
+        "lnpppnnnnnnnnnnl", "lnnnnnnnnnnnnnnl", "llllllllllllllll", "................", "................", "................",
+    ],
+    "cloud": [
+        "................", "................", "......wwww......", ".....wwwwww.....", "...wwwwwwwwww...",
+        "..wwwwwwwwwwwww.", ".wwwwwwwwwwwwww.", ".wwwwwwwwwwwwwww", ".ssssssssssssss.", "................",
+        "....b...b...b...", "...b...b...b....", "..b...b...b.....", "................", "................", "................",
+    ],
+    "shield": [
+        ".lllllllddddddd.", ".llllllkkdddddd.", ".lllllkkkkddddd.", ".lllllkkkkddddd.", ".llllllkkdddddd.",
+        ".llllllkkdddddd.", ".llllllkkdddddd.", ".lllllllddddddd.", "..lllllldddddd..", "...lllllddddd...",
+        "....lllldddd....", ".....lllddd.....", "......lldd......", ".......ld.......", "................", "................",
+    ],
+    "rocket": [
+        ".......pp.......", "......pppp......", "......wwww......", ".....wwwwww.....", ".....wbbbww.....",
+        ".....wbbbww.....", ".....wwwwww.....", ".....wwwwww.....", "....rwwwwwwr....", "...rrwwwwwwrr...",
+        "...rr.wwww.rr...", "...r..oyyo..r...", ".......oo.......", "......o..o......", "................", "................",
+    ],
+    "padlock": [
+        "................", "....ssssssss....", "...ss......ss...", "...ss......ss...", "...ss......ss...",
+        "..dddddddddddd..", "..dddddddddddd..", "..ddddnnnndddd..", "..ddddnnnndddd..", "..dddddnnddddd..",
+        "..dddddnnddddd..", "..dddddddddddd..", "..dddddddddddd..", "................", "................", "................",
+    ],
     "database": [
         "................", "....llllllll....", "..llwwwwwwwwll..", "..lwwwwwwwwwwl..", "..llwwwwwwwwll..",
         "..ddllllllllmm..", "..llddddddddll..", "..llllllllllll..", "..ddllllllllmm..", "..llddddddddll..",
@@ -572,6 +619,85 @@ def inventory():
     svg("inventory", W, H, "", body, alt)
 
 
+RARITY = {"LEGENDARY": "#F2C94C", "EPIC": PINK, "RARE": LILAC}
+
+
+def achievement(a, i):
+    file, rarity, xp, title, issuer, flavour, emblem = a
+    wide = rarity == "LEGENDARY"
+    W, H = (1000, 176) if wide else (440, 176)
+    S, X = (6, 150) if wide else (5, 122)
+    box = S * 16 + 16
+    color = RARITY[rarity]
+    rng = random.Random(i + 11)
+    sparks = "".join(
+        f'<rect class="tw" x="{rng.randrange(20, 28 + box, 4)}" y="{rng.randrange(8, H - 12, 4)}" width="4" height="4" '
+        f'fill="{color}" style="animation-delay:-{rng.uniform(0, 2.4):.2f}s"/>'
+        for _ in range(9)
+    )
+    size = 26 if wide else 16
+    lines = "".join(
+        f'<text class="px" x="{X}" y="{(92 if wide else 80) + n * 21 - (len(title) - 1) * 10}" font-size="{size}" fill="{TEXT}">{escape(t)}</text>'
+        for n, t in enumerate(title)
+    )
+    y0 = 118
+    css = (
+        ".tw{animation:tw 2.4s ease-in-out infinite}@keyframes tw{0%,100%{opacity:.1}50%{opacity:1}}"
+        ".bob{animation:bob 1.8s steps(2) infinite}@keyframes bob{50%{transform:translateY(-4px)}}"
+        f".sh{{transform:translateX(-300px);animation:sh 7s ease-in-out {i * 1.1:.1f}s infinite}}"
+        f"@keyframes sh{{0%{{transform:translateX(-300px)}}28%,100%{{transform:translateX({W + 120}px)}}}}"
+        ".glow{animation:gl 2s ease-in-out infinite}@keyframes gl{0%,100%{stroke-opacity:.45}50%{stroke-opacity:1}}"
+    )
+    body = (
+        f'<defs><clipPath id="c"><rect width="{W}" height="{H}" rx="12"/></clipPath></defs>'
+        f'<g clip-path="url(#c)"><rect width="{W}" height="{H}" fill="{PANEL}"/>'
+        f'<rect x="20" y="{(H - box) // 2}" width="{box}" height="{box}" rx="10" fill="{BG}" stroke="{color}" stroke-width="2"/>'
+        f'{sparks}<g class="bob"><g shape-rendering="crispEdges">{pixels(ICONS[emblem], S, 28, (H - box) // 2 + 8, PAL)}</g></g>'
+        f'<text class="px" x="{X}" y="38" font-size="12" fill="{color}" letter-spacing="1.5">{rarity} UNLOCKED</text>'
+        f'<text class="px" x="{W - 20}" y="38" text-anchor="end" font-size="13" fill="{color}">+{xp} XP</text>'
+        f'{lines}<text class="mono" x="{X}" y="{y0}" font-size="13" fill="{LILAC}">{escape(issuer)}</text>'
+        f'<text class="mono" x="{X}" y="{y0 + 22}" font-size="13" fill="{MUTED}">{escape(flavour)}</text>'
+        f'<polygon class="sh" points="0,0 90,0 30,{H} -60,{H}" fill="#fff" opacity=".09"/></g>'
+        f'<rect class="{"glow" if wide else ""}" x="1" y="1" width="{W - 2}" height="{H - 2}" rx="12" fill="none" stroke="{color if wide else LINE}" stroke-width="2"/>'
+    )
+    svg(file, W, H, css, body, f'{rarity} achievement: {" ".join(title)}, {issuer}')
+
+
+def trophy_case():
+    W, H = 1000, 92
+    xp = sum(a[2] for a in ACHIEVEMENTS)
+    css = (
+        ".fill{transform-origin:98px 0;animation:bar 6s ease-out infinite}@keyframes bar{0%{transform:scaleX(0)}30%,100%{transform:scaleX(1)}}"
+        ".blink{animation:bl 1.1s steps(1) infinite}@keyframes bl{0%{opacity:1}50%{opacity:.35}}"
+    )
+    body = (
+        f'<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="12" fill="{PANEL}" stroke="{LINE}" stroke-width="2"/>'
+        f'<g shape-rendering="crispEdges">{pixels(ICONS["trophy"], 3.5, 24, 18, PAL)}</g>'
+        f'<text class="px" x="96" y="38" font-size="20" fill="{TEXT}" letter-spacing="2">TROPHY CASE</text>'
+        f'<text class="px blink" x="{W - 24}" y="38" text-anchor="end" font-size="14" fill="#F2C94C">{xp:,} XP</text>'
+        f'<rect x="96" y="50" width="880" height="12" fill="{BG}" stroke="{LINE}" stroke-width="2"/>'
+        f'<rect class="fill" x="98" y="52" width="660" height="8" fill="{LILAC}"/>'
+        f'<text class="mono" x="96" y="80" font-size="11.5" fill="{MUTED}">{len(ACHIEVEMENTS)} unlocked / {len(LOCKED)} secret / next level: always learning</text>'
+    )
+    svg("ach-case", W, H, css, body, f"Trophy case: {len(ACHIEVEMENTS)} achievements unlocked, {xp} XP")
+
+
+def locked():
+    W, H = 1000, 96
+    gap, cw = 12, (1000 - 24) / 3
+    cards = []
+    for i, (name, progress) in enumerate(LOCKED):
+        x = i * (cw + gap)
+        cards.append(
+            f'<rect x="{x + 1:.0f}" y="1" width="{cw - 2:.0f}" height="{H - 2}" rx="10" fill="{BG}" stroke="{LINE}" stroke-width="2" stroke-dasharray="6 5"/>'
+            f'<g shape-rendering="crispEdges" opacity=".8">{pixels(ICONS["padlock"], 3, x + 14, 22, PAL)}</g>'
+            f'<text class="px" x="{x + 76:.0f}" y="36" font-size="11" fill="{PLUM}" letter-spacing="1">SECRET ACHIEVEMENT</text>'
+            f'<text class="mono" x="{x + 76:.0f}" y="58" font-size="{12 if len(name) > 24 else 13}" fill="{MUTED}">{escape(name)}</text>'
+            f'<text class="px" x="{x + 76:.0f}" y="78" font-size="11" fill="{PLUM}">{progress}</text>'
+        )
+    svg("ach-locked", W, H, "", "".join(cards), "Locked: " + ", ".join(n for n, _ in LOCKED))
+
+
 hero()
 character()
 divider("divider-cat", "cat", 2, 22)
@@ -582,3 +708,7 @@ for c in CARDS:
 quests()
 inventory()
 footer()
+trophy_case()
+locked()
+for n, a in enumerate(ACHIEVEMENTS):
+    achievement(a, n)

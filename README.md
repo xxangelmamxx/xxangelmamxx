@@ -186,13 +186,20 @@ const abha = {
 
 *collecting knowledge like it's an RPG inventory.*
 
-| Achievement | Unlocked |
-|:--|:--|
-| ✿ **[Merged PR: TraceLens #34](https://github.com/sanjaysaini383/observability-platform/pull/34)** | Open Source · 2026 |
-| ✿ **[Intermediate Web Development](https://drive.google.com/file/d/1tEYbA8svLlamGG0tpbyJLTiKHR8q2Qwd/view)** | CodePath · 2025 |
-| ✿ **[Introduction to Cloud Computing](https://www.coursera.org/account/accomplishments/verify/ESVDZ4MFJBY5)** | IBM · 2023 |
-| ✿ **[Cybersecurity](https://drive.google.com/file/d/14RUpj3geWj6El6QFFofZ9rFuX7JPhjfT/view)** | CodePath · 2022 |
-| ✿ **[Startup Accelerator Program](https://www.credly.com/badges/ed31293c-cb3d-4457-ba95-e4074dfd071d/print)** | Design Thinking & Innovation |
+<img src="assets/ach-case.svg" width="100%" alt="Trophy case: 5 achievements unlocked, 2,500 XP" />
+
+<a href="https://github.com/sanjaysaini383/observability-platform/pull/34"><img src="assets/ach-merged.svg" width="100%" alt="Legendary: Merged PR, TraceLens #34, Open Source, 2026" /></a>
+
+<div align="center">
+
+<a href="https://drive.google.com/file/d/1tEYbA8svLlamGG0tpbyJLTiKHR8q2Qwd/view"><img src="assets/ach-web.svg" width="49%" alt="Epic: Intermediate Web Development, CodePath, 2025" /></a>
+<a href="https://www.credly.com/badges/ed31293c-cb3d-4457-ba95-e4074dfd071d/print"><img src="assets/ach-startup.svg" width="49%" alt="Epic: Startup Accelerator Program, Design Thinking and Innovation" /></a>
+<a href="https://www.coursera.org/account/accomplishments/verify/ESVDZ4MFJBY5"><img src="assets/ach-cloud.svg" width="49%" alt="Rare: Introduction to Cloud Computing, IBM, 2023" /></a>
+<a href="https://drive.google.com/file/d/14RUpj3geWj6El6QFFofZ9rFuX7JPhjfT/view"><img src="assets/ach-cyber.svg" width="49%" alt="Rare: Cybersecurity, CodePath, 2022" /></a>
+
+</div>
+
+<img src="assets/ach-locked.svg" width="100%" alt="Secret achievements, still locked: close one browser tab, sleep eight hours, remember why that code works." />
 
 <!-- ═══════════════ EASTER EGG ═══════════════ -->
 
